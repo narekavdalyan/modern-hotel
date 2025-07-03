@@ -1,0 +1,8 @@
+.app_header {
+    display: flex;
+    justify-content: space-evenly;
+}
+.app_footer {
+    display: flex;
+    justify-content: center;
+}

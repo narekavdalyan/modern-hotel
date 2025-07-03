@@ -1,0 +1,26 @@
+.header_book_btn {
+    padding: 10px 20px;
+    font-weight: 600;
+    border: 1px solid black;
+    color: black;
+    border-radius: 10px;
+}
+.header_book_btn:hover {
+    background-color: black;
+    color: white;
+    transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.hotel_name_header {
+    border-left: 2px solid black;
+    padding: 0 5px;
+    margin-right: 100px;
+    cursor: pointer;
+}
+.nav_items_div {
+    margin-left: 100px;
+}
+
+
+a:hover {
+    color: orange;
+}

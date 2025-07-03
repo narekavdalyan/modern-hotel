@@ -1,0 +1,31 @@
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary mb-3 ">
+	<div class="container">
+		<p class="navbar-brand hotel_name_header " [routerLink]="''">MODERN <br> HOTEL</p>
+
+		
+		<button class="navbar-toggler" type="button" (click)="isMenuCollapsed = !isMenuCollapsed">&#9776;</button>
+
+		<div [ngbCollapse]="isMenuCollapsed" class="nav_items_div collapse navbar-collapse">
+			<ul class="navbar-nav">
+				<li class="nav-item active" >
+					<a class="nav-link head_menu_main" [routerLink]="''"  (click)="isMenuCollapsed = true;">Главная</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" [routerLink]="'.'"  (click)="isMenuCollapsed = true">Галерея</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" [routerLink]="'.'" (click)="isMenuCollapsed = true">Номера</a>
+				</li>
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="''" (click)="isMenuCollapsed = true">Удобства</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="''" (click)="isMenuCollapsed = true">Встречи и события</a>
+                </li>
+			</ul>
+            <button class="header_book_btn">ЗАБРОНИРОВАТЬ</button>
+		</div>
+	</div>
+</nav>
