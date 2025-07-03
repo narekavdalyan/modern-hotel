@@ -5,9 +5,6 @@
     display: flex;
     justify-content: space-between;
 }
-.footer_left_address {
-    /* padding: 30px 0; */
-}
 .footer_left_social {
     padding: 30px 0;
     display: flex;
@@ -16,7 +13,9 @@
 .f_social_icons_div {
     padding:0 30px;
     border-right: 1px solid black;
-
+}
+.f_social_icons_div a {
+    color: black;
 }
 .f_social_btn {
     padding: 5px 20px;

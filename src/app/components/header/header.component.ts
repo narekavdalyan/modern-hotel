@@ -13,12 +13,12 @@ import { CommonModule, NgStyle } from '@angular/common';
 export class HeaderComponent {
 
   isMenuCollapsed = true;
-  isActive = false;
+//   isActive = false;
 
-  // changeColor() {
-  //   this.isActive = !this.isActive;
+//   changeColor() {
+//     this.isActive = !this.isActive;
 
-  // }
+//   }
 
 //   menuItems = [
 //   { name: 'home', label: 'Главная', link: '' },
@@ -28,10 +28,10 @@ export class HeaderComponent {
 //   { name: 'events', label: 'Встречи и события', link: '' }
 //  ];
 
-  // activeItem = 'home';
+//   activeItem = 'home';
 
-  // setActive(name : string) {
-  //   this.activeItem = name;
-  // }
+//   setActive(name : string) {
+//     this.activeItem = name;
+//   }
 
 }
