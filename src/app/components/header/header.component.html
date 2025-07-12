@@ -10,13 +10,13 @@
 		<div [ngbCollapse]="isMenuCollapsed" class="nav_items_div collapse navbar-collapse">
 			<ul class="navbar-nav">
 				<li class="nav-item active" >
-					<a class="nav-link head_menu_main" [routerLink]="''"  (click)="isMenuCollapsed = true;">Главная</a>
+					<a class="nav-link head_menu_main" [routerLink]="'home'"  (click)="isMenuCollapsed = true;">Главная</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" [routerLink]="'.'"  (click)="isMenuCollapsed = true">Галерея</a>
+					<a class="nav-link" [routerLink]="'gallery'"  (click)="isMenuCollapsed = true">Галерея</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" [routerLink]="'.'" (click)="isMenuCollapsed = true">Номера</a>
+					<a class="nav-link" [routerLink]="''" (click)="isMenuCollapsed = true">Номера</a>
 				</li>
                 <li class="nav-item">
                     <a class="nav-link" [routerLink]="''" (click)="isMenuCollapsed = true">Удобства</a>
