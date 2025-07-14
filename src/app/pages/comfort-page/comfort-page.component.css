@@ -1,8 +1,8 @@
-.gallery_body {
+.comfort_body {
     display: flex;
     justify-content: center;
 }
-.gallery_footer {
+.comfort_footer {
     display: flex;
     justify-content: center;
 }

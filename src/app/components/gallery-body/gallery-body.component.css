@@ -1,5 +1,6 @@
 .gallery_body {
-    padding: 30px;
+    padding: 20px 0;
+    width: 70%;
 }
 .gallery_row {
     display: flex;
