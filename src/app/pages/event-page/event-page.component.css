@@ -1,0 +1,8 @@
+.event_body {
+    display: flex;
+    justify-content: center;
+}
+.event_footer {
+    display: flex;
+    justify-content: center;
+}
