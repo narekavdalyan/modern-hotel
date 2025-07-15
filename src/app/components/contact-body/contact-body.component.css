@@ -63,7 +63,7 @@
 .contact_send_btn {
     width: fit-content;
     padding: 10px 20px;
-    margin: 10px;
+    margin: 10px 0;
     background-color: black;
     color: white;
     cursor: pointer;
