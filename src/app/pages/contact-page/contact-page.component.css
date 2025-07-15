@@ -1,0 +1,8 @@
+.contact_body {
+    display: flex;
+    justify-content: center;
+}
+.contact_footer {
+    display: flex;
+    justify-content: center;
+}
