@@ -13,25 +13,5 @@ import { CommonModule, NgStyle } from '@angular/common';
 export class HeaderComponent {
 
   isMenuCollapsed = true;
-//   isActive = false;
-
-//   changeColor() {
-//     this.isActive = !this.isActive;
-
-//   }
-
-//   menuItems = [
-//   { name: 'home', label: 'Главная', link: '' },
-//   { name: 'gallery', label: 'Галерея', link: '.' },
-//   { name: 'rooms', label: 'Номера', link: '.' },
-//   { name: 'comforts', label: 'Удобства', link: '' },
-//   { name: 'events', label: 'Встречи и события', link: '' }
-//  ];
-
-//   activeItem = 'home';
-
-//   setActive(name : string) {
-//     this.activeItem = name;
-//   }
 
 }

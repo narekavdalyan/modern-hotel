@@ -9,6 +9,7 @@
 .contact_row_2 {
     display: flex;
     flex-direction: column;
+    margin-bottom: 20px;
 }
 .row_2_display {
     display: flex;

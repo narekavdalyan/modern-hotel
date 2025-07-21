@@ -15,9 +15,9 @@
 				<li class="nav-item">
 					<a class="nav-link" [routerLink]="'gallery'"  (click)="isMenuCollapsed = true">Галерея</a>
 				</li>
-				<li class="nav-item">
+				<!-- <li class="nav-item">
 					<a class="nav-link" [routerLink]="''" (click)="isMenuCollapsed = true">Номера</a>
-				</li>
+				</li> -->
                 <li class="nav-item">
                     <a class="nav-link" [routerLink]="'comfort'" (click)="isMenuCollapsed = true">Удобства</a>
                 </li>
@@ -25,7 +25,7 @@
                     <a class="nav-link" [routerLink]="'event'" (click)="isMenuCollapsed = true">Встречи и события</a>
                 </li>
 			</ul>
-            <button class="header_book_btn">ЗАБРОНИРОВАТЬ</button>
+            <button class="header_book_btn" [routerLink]="'contact'">ЗАБРОНИРОВАТЬ</button>
 		</div>
 	</div>
 </nav>
