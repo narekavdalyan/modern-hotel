@@ -23,4 +23,5 @@
 
 .nav_items_div a:hover {
     color: orange;
+    transition: 0.7s cubic-bezier(0.075, 0.82, 0.165, 1);
 }

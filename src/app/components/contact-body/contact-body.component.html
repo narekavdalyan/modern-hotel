@@ -37,7 +37,11 @@
              <textarea class="row_2_2_big_input" type="text" placeholder="Добавьте сообщение ..."></textarea>
            </form>
       </div>
-        <div class="contact_send_btn" *ngIf="contactForm.get('name')?.valid && contactForm.get('email')?.valid && contactForm.get('phone')?.valid" (click)="contactSendFn()">Отправить</div>
+        <!-- <div class="contact_send_btn" *ngIf="contactForm.get('name')?.valid && contactForm.get('email')?.valid && contactForm.get('phone')?.valid" (click)="contactSendFn()">Отправить</div> -->
+             <button [ngClass]="contactForm.valid ? 'contact_send_btn' : 'contact_send_btn_disabled'" 
+             (click)="contactSendFn()"
+             [disabled]="contactForm.invalid">Отправить</button>
+
     </div>
     
 </div>
