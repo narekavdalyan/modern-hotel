@@ -28,6 +28,9 @@ export class FooterComponent {
   }
 
   footerOkBtnFn() {
-    this.router.navigate(['contact']);
+    if(this.footerForm.valid) {
+         this.router.navigate(['contact']);
+    }
+ 
   }
 }
